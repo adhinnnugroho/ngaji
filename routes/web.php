@@ -17,4 +17,5 @@ use App\Http\Controllers\Home\HomeController;
 */
 
 Route::get('/', [AuthController::class, 'index']);
+Route::get('/home', [HomeController::class, 'index']);
 Route::get('/list_ayat/{id}', [HomeController::class, 'list_ayat']);
