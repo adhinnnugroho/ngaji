@@ -1,5 +1,5 @@
 <x-guest-layout>
     @livewire('layouts.navigations-bar')
 
-    @livewire('juz.alquranjus')
+    {{-- @livewire('juz.alquranjus') --}}
 </x-guest-layout>

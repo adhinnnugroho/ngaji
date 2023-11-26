@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\Auth\AuthController;
 use App\Http\Controllers\Home\HomeController;
 
 /*
@@ -15,5 +16,5 @@ use App\Http\Controllers\Home\HomeController;
 |
 */
 
-Route::get('/', [HomeController::class, 'index']);
+Route::get('/', [AuthController::class, 'index']);
 Route::get('/list_ayat/{id}', [HomeController::class, 'list_ayat']);
