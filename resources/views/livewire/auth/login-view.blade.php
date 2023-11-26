@@ -26,7 +26,18 @@
                         <a href="#">Forgot your password?</a>
                     </div>
                     <div class="px-4 pb-2 pt-4">
-                        <button class="uppercase block w-full p-4 text-lg rounded-full bg-indigo-500 hover:bg-indigo-600 focus:outline-none">sign in</button>
+                        <x-button.auth-button>
+                            Let's Go
+                        </x-button.auth-button>
+                    </div>
+
+                    <div class="text-center mt-5 text-gray-400 hover:underline hover:text-gray-100">
+                        <a href="#">Or</a>
+                    </div>
+                    <div class="px-4 pb-2 pt-4">
+                        <x-button.border-button>
+                            Login using Google
+                        </x-button.border-button>
                     </div>
                 </form>
             </div>
